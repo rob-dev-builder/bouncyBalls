@@ -1,7 +1,18 @@
 body {
-  padding: 0;
+   padding: 1em;
    margin: 0;
  }
 canvas {
   vertical-align: top;
-} 
+}
+
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Archivo Narrow', sans-serif;
+}

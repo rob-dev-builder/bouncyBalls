@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Bouncy Balls</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Archivo+Narrow|Pacifico" rel="stylesheet">
+</head>
 
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-
-
-    <!-- /*<style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>*/ -->
-  </head>
-  <body>
-
+<body>
 <audio>
- <source src="bounce.wav"></source>
+ <source  src="bounce.wav"></source>
 </audio>
-  </body>
+  <section>
+    <h1>Bouncy Balls!</h1>
+    <p>- Press keyboard Up Arrow to Add a ball</p>
+    <p>- Press keyboard Down Arrow to remove a ball</p>
+    <p>- Mouse click on a ball to change its direction</p>
+  </section>
+</body>
 
-  <script src="libraries/p5.js" type="text/javascript"></script>
-  <script src="libraries/p5.dom.js" type="text/javascript"></script>
-  <!-- <script src="libraries/p5.sound.js" type="text/javascript"></script> -->
+<script src="libraries/p5.js" type="text/javascript"></script>
+<script src="libraries/p5.dom.js" type="text/javascript"></script>
+<!-- <script src="libraries/p5.sound.js" type="text/javascript"></script> -->
+<script src="sketch.js" type="text/javascript"></script>
+<script src="ball.js" type="text/javascript"></script>
 
-  <script src="sketch.js" type="text/javascript"></script>
-  <script src="ball.js" type="text/javascript"></script>
 </html>
