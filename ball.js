@@ -1,5 +1,6 @@
 function Ball() { // Constructor
 
+    this.bounceSound = document.getElementsByTagName("audio")[0];
     this.diameter = 100; // ball diameter
     this.radius = (this.diameter / 2) // radius of ball
 
@@ -49,6 +50,7 @@ function Ball() { // Constructor
             // invert the number for x direction. This sends ball in opisite direction.
             this.xSpeed = this.xSpeed * -1;
             this.changeColour();
+            this.bounceSound.play();
 
         } else {}
 
@@ -57,6 +59,7 @@ function Ball() { // Constructor
             // invert the number for x direction. This sends ball in opisite direction.
             this.ySpeed = this.ySpeed * -1;
             this.changeColour();
+            this.bounceSound.play();
 
         } else {}
     }
