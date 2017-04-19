@@ -19,6 +19,7 @@ function keyPressed() {
 
   } else if (keyCode === DOWN_ARROW) {
     //value = 0;
+    balls.splice(0,1);
   }
 }
 
@@ -56,7 +57,7 @@ function collision_Dectection() {
 }
 
 function setup() {
-    //  frameRate(0.9);
+    // frameRate(0.9);
     createCanvas(400, 400);
     for (var i = 0; i < 3; i++) {
         balls[i] = new Ball();
